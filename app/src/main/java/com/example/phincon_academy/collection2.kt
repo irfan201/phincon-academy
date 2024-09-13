@@ -3,29 +3,29 @@ package com.example.phincon_academy
 import kotlin.math.pow
 
 fun main() {
-//    val bilBulat = listOf(2,3,4,1,6,7,8)
-//    println(bilBulat)
-//    val bilBulatBaru = bilBulat.map { it.toDouble().pow(2) }
-//    println(bilBulatBaru)
+    val bilBulat = listOf(2,3,4,1,6,7,8)
+    println(bilBulat)
+    val bilBulatBaru = bilBulat.map { it.toDouble().pow(2) }
+    println(bilBulatBaru)
 
     val hewan = listOf("Ayam", "Sapi", "Kucing", "Kambing", "Angsa", "Anjing")
-//    println(hewan.filter { it.startsWith("A") })
-//    val hewanX = hewan.filter { it.startsWith("X") }
-//    if ( hewanX.isEmpty()){
-//        println("tidak ada nama hwan dengan awal X")
-//    } else{
-//        println("ada")
-//    }
+    println(hewan.filter { it.startsWith("A") })
+    val hewanX = hewan.filter { it.startsWith("X") }
+    if ( hewanX.isEmpty()){
+        println("tidak ada nama hwan dengan awal X")
+    } else{
+        println("ada")
+    }
 
-//    fun searchHewan(S: String){
-//       val hewanCari =  hewan.filter { it.startsWith(S, ignoreCase = true) }
-//       if (hewanCari.isEmpty()){
-//           println("Tidak ada nama hewan dengan awal $S")
-//       } else{
-//           hewanCari.forEach { println(it) }
-//       }
-//    }
-//    searchHewan("a")
+    fun searchHewan(S: String){
+       val hewanCari =  hewan.filter { it.startsWith(S, ignoreCase = true) }
+       if (hewanCari.isEmpty()){
+           println("Tidak ada nama hewan dengan awal $S")
+       } else{
+           hewanCari.forEach { println(it) }
+       }
+    }
+    searchHewan("a")
 
 //    val listOrang = listOf(
 //        Orang("Messi", 34, "Cibinong"),
